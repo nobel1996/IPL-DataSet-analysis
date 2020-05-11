@@ -1,3 +1,6 @@
+-------------------------
+#code starts here
+
 import yaml
 print(path)
 with open(path,'r') as f:
@@ -31,3 +34,6 @@ print('First bowler who played the first ball of the first inning was :' + first
 # How many deliveries were delivered in first inning ?
 deliveries = len(data['innings'][0]['1st innings']['deliveries'])
 print('First inning was consisting of' + ' ' + str(deliveries) + ' ' + 'deliveries delivered.')
+
+#code ends here
+
